@@ -48,7 +48,7 @@ router.post("/login", async (req, res) => {
 
     const { password, ...others } = user._doc;
 
-    res.status(200).json({...others, accessToken});
+    /* res.status(200).json({...others, accessToken}); */
     return res.redirect('/');
   } catch (err) {
     return res.status(500).json(err);
