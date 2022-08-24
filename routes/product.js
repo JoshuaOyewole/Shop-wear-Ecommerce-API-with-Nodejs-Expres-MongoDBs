@@ -8,7 +8,7 @@ const {
 const router = require("express").Router();
 
 //CREATE
-
+//checking
 router.post("/", async (req, res) => {
   const newProduct = new Product(req.body);
 
