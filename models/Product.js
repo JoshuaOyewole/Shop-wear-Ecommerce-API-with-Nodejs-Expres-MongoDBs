@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 const mongoose = require("mongoose");
 
 const ProductSchema = new mongoose.Schema(
@@ -6,6 +7,10 @@ const ProductSchema = new mongoose.Schema(
     gender: { type: String, required: true },
 
     product:[{
+      id: {
+        type: String,
+        default: () => nanoid(),
+      },
       title: { type: String, required: true, unique: true },
       desc: { type: String, required: true },
       img: { type: String, required: true },
