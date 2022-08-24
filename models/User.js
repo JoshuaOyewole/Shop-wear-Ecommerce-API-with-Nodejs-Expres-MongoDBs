@@ -4,9 +4,9 @@ const UserSchema = new mongoose.Schema(
   {
     firstname: { type: String },
     lastname: { type: String},
-    username: { type: String, unique: true },
-    email: { type: String, unique: true },
-    password: { type: String},
+    username: { type: String, required: true, unique: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
     gender: {
       type: String,
       required: true,
@@ -17,6 +17,7 @@ const UserSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    
     img: { type: String },
   },
   { timestamps: true }
