@@ -80,11 +80,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "MoveTechⓇ Scrub Top Women",
                   "gender": "female",
+                  "section":"scrubTopWomen",
                   "products": [
                     {
-                    "_id": {
-                    "$oid": "63069083791cee17d07ec36d"
-                },
+                    "_id": "63069083791cee17d07ec36d",
                       "title": "4-Pocket Scrub Top - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -101,9 +100,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
-                        "_id": {
-                            "$oid": "63064083791cee17d07ec36d"
-                        },
+                        "_id":  "63064083791cee17d07ec36d",
                       "title": "3-Pocket Scrub Top - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1295",
@@ -120,9 +117,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
-                        "_id": {
-                            "$oid": "63029083791cee17d07ec36d"
-                        },
+                        "_id": "63029083791cee17d07ec36d",
                       "title": "Mandarin Scrub Top - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1195",
@@ -143,8 +138,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "MOVETECHⓇ SCRUB TOP MEN",
                   "gender": "male",
+                  "section":"scrubTopMen",
                   "products": [
                     {
+                        "_id": "63029083c91cee17d07ec36d",
                       "title": "4-Pocket Scrub Top - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -161,6 +158,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "6302cf83791cee17d07ec36d",
                       "title": "3-Pocket Scrub Top - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1695",
@@ -177,6 +175,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "63029083rt1cee17d07ec36d",
                       "title": "Zip-Up Polo Scrub Top - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -197,8 +196,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "MOVETECHⓇ SCRUB PANTS WOMEN",
                   "gender": "female",
+                  "section":"scrubPantWomen",
                   "products": [
                     {
+                        "_id": "63ret083791cee17d07ec36d",
                       "title": "Jogger Scrub Pants - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1295",
@@ -215,6 +216,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "6302908379uyhe17d07ec36d",
                       "title": "Straight Cut Scrub Pants - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1235",
@@ -231,6 +233,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "6302908nb91cee17d07ec36d",
                       "title": "Jogger Scrub Pants - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -251,8 +254,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "MOVETECHⓇ SCRUB PANTS MEN",
                   "gender": "male",
+                  "section":"scrubPantMen",
                   "products": [
                     {
+                        "_id": "63029083791cee1ijx7ec36d",
                       "title": "Jogger Scrub Pants - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -269,6 +274,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "6302908jftrcee17d07ec36d",
                       "title": "Jogger Scrub Pants - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -285,6 +291,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "63029083791ceepls07ec36d",
                       "title": "Jogger Scrub Pants - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -305,8 +312,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "LONG COAT WOMEN",
                   "gender": "female",
+                  "section":"longCoatWomen",
                   "products": [
                     {
+                        "_id": "630lz083791cee17d07ec36d",
                       "title": "Long Coat Pro+® - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -323,6 +332,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "63029083791cemksd07ec36d",
                       "title": "Long Coat Pro+® - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -343,8 +353,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "LONG COAT MEN",
                   "gender": "male",
+                  "section":"longCoatMen",
                   "products": [
                     {
+                        "_id": "63029o09791cee17d07ec36d",
                       "title": "Long Coat Pro+® - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -361,6 +373,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "63029083791cee17d0md3w6d",
                       "title": "Long Coat Pro+® - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -381,8 +394,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "LONG SLEEVES BLAZER WOMEN",
                   "gender": "female",
+                  "section":"longSleeveBlazerWomen",
                   "products": [
                     {
+                        "_id": "630290983791cee17d07ec36d",
                       "title": "Long Sleeves Blazer Pro+® - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "1495",
@@ -399,6 +414,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "63029id3791cee17d07ec36d",
                       "title": "Long Sleeves Blazer  - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "PHP 1495",
@@ -419,8 +435,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "LONG SLEEVES BLAZER MEN",
                   "gender": "male",
+                  "section":"longSleeveBlazerMen",
                   "products": [
                     {
+                      "_id": "630290837098cee17d07ec36d",
                       "title": "Long Sleeves Blazer Pro+® - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "PHP 1495",
@@ -437,6 +455,7 @@ router.get("/", async (req, res) => {
                       ]
                     },
                     {
+                        "_id": "63029083981cee17d07ec36d",
                       "title": "Long Sleeves Blazer  - Male",
                       "desc": "MoveTechⓇ Plus",
                       "price": "PHP 1495",
@@ -457,8 +476,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "SHORT SLEEVES BLAZER WOMEN",
                   "gender": "female",
+                  "section":"shortSleeveBlazerWomen",
                   "products": [
                     {
+                        "_id": "630290983791cee17d07ec36d",
                       "title": "Short Sleeves Blazer - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "PHP 1495",
@@ -479,8 +500,10 @@ router.get("/", async (req, res) => {
                 {
                   "header": "SHORT SLEEVES BLAZER MEN",
                   "gender": "male",
+                  "section":"shortSleeveBlazerMen",
                   "products": [
                     {
+                        "_id": "63029084391cee17d07ec36d",
                       "title": "Short Sleeves Blazer - Women",
                       "desc": "MoveTechⓇ Plus",
                       "price": "PHP 1495",
