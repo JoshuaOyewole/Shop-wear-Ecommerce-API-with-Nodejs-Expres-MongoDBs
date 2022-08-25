@@ -62,9 +62,8 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
 router.get("/find/:id", async (req, res) => {
     
     try {
-      console.log(`ID recieved is ${req.params.id}`);
-        const product = await Sproduct.findById(req.params.id);
-        console.log(product);
+        const product = await Sproduct.find({pid:req.params.id});
+       
         res.status(200).json(product);
         /* console.log(product)
         const allProducts = product.map(category =>{
