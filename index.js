@@ -17,7 +17,7 @@ mongoose
   .then(() => console.log("DB Connection Successfull!"))
   .catch((err) => {
     console.log(err);
-  });
+});
 
 app.use(cors());
 app.use(express.json());

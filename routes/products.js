@@ -22,6 +22,16 @@ router.post("/", async (req, res) => {
     }
 });
 
+//CREATE SINGLE PRODUCT
+router.post("/single", async (req, res) => {
+  try {
+      const savedProduct = await Sproduct.insertMany(req.body);
+      res.status(200).json(savedProduct);
+  } catch (err) {
+      res.status(500).json(err);
+  }
+});
+
 //UPDATE
 router.put("/:id", async (req, res) => {
     try {
@@ -52,7 +62,9 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
 router.get("/find/:id", async (req, res) => {
     
     try {
+      console.log(`ID recieved is ${req.params.id}`);
         const product = await Sproduct.findById(req.params.id);
+        console.log(product);
         res.status(200).json(product);
         /* console.log(product)
         const allProducts = product.map(category =>{
