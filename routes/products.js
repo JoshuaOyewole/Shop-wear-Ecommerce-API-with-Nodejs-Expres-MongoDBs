@@ -1,4 +1,7 @@
 const Product = require("../models/Products");
+const Sproduct = require("../models/Sproduct");
+
+
 const {
     /*   verifyToken,
       verifyTokenAndAuthorization, */
@@ -49,10 +52,27 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
 router.get("/find/:id", async (req, res) => {
     
     try {
-        
-        const product = await Product.find({pid:`${req.params.id}`});
-        console.log(`Product is ${product}`);
+        const product = await Sproduct.findById(req.params.id);
         res.status(200).json(product);
+        /* console.log(product)
+        const allProducts = product.map(category =>{
+           return category.products
+        })
+        const firstItem = allProducts[0];
+        const secondItem = allProducts[1];
+        const thirdItem = allProducts[2];
+        const fourtItem = allProducts[3];
+        const fiveItem = allProducts[4];
+        const sixthItem = allProducts[5];
+        const seventhItem = allProducts[6];
+        const eightItem = allProducts[7];
+        const ninethItem = allProducts[8];
+        const tenItem = allProducts[9];
+
+        const allItems = [...firstItem, ...secondItem, ...thirdItem, ...fourtItem, ...fiveItem, ...sixthItem, ...seventhItem, ...eightItem, ...ninethItem, ...tenItem]
+        
+        const exactItem = allItems.filter(item=>item.pid === req.params.id)
+      console.log(allItems); */ 
     } catch (err) {
         res.status(500).json(err);  
     }
