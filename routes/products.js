@@ -118,6 +118,22 @@ router.get("/", async (req, res) => {
     }
 });
 
+
+
+//GET ALL SPRODUCTS
+
+router.get("/sproducts", async (req, res) => {
+    
+    
+    try {
+      const products = await Sproduct.find();
+        res.status(200).json(products);
+    }
+   catch (err) {
+    res.status(500).json(err);
+    }
+});
+
 module.exports = router;
 
 
